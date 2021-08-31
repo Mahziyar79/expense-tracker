@@ -1,0 +1,113 @@
+ul{
+  padding: 0;
+}
+ul li{
+  list-style: none;
+}
+.App {
+  font-family: cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f6f6f6;
+  height: 100vh;
+  width: 100%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.topSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.resaultSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.mainForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+  height: 10rem;
+  margin: 0 10px 20px 10px;
+  background: #f7f7f7;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 12px 0 rgb(0 0 0 / 15%);
+}
+input[type="text"], input[type="number"] {
+  border: none;
+  width: 90%;
+  padding: 9px;
+  border-radius: 3px;
+  box-shadow: 0 2px 12px 0 rgb(0 0 0 / 20%);
+  outline: none;
+}
+button {
+  background: #6bb36a;
+  border: none;
+  padding: 8px 20px;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 2px 10px 0 rgb(0 0 0 / 10%);
+}
+.delete_btn{
+  background-color: #ff6f6f;
+  margin-left: 10px;
+}
+.box_border{
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  align-items: center;
+  justify-content: center;
+}
+.box_border:first-child span{
+  color: red;
+}
+.box_border:last-child span{
+  color: green;
+}
+.box_border p{
+  margin: 5px;
+
+}
+.transaction_list li{
+  display: flex;
+  width: 97%;
+  justify-content: space-around;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  padding: 5px;
+  align-items: center;
+  border-radius: 3px;
+}
+.search_transaction{
+  box-shadow: none !important;
+  border: 1px solid #ccc !important;
+  margin: 10px 0 0 0;
+  width: 95% !important;
+  background: #eee;
+}
+li.expenseLi {
+  border-right: 4px solid red;
+}
+li.incomeLi {
+  border-right: 4px solid green;
+}
